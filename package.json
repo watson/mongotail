@@ -2,7 +2,6 @@
   "name": "mongotail",
   "version": "1.0.0",
   "description": "Tail any capped MongoDB collection - like oplog",
-  "main": "index.js",
   "scripts": {
     "test": "standard && node test/uri.js"
   },
