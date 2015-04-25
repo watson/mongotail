@@ -1,7 +1,7 @@
 'use strict'
 
-var conf = require('./lib/config')
-var cursor = require('./lib/cursor')
+var conf = require('../lib/config')
+var cursor = require('../lib/cursor')
 
 var promptForPassword = function () {
   var questions = [
