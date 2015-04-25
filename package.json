@@ -7,7 +7,7 @@
     "test": "standard && node test/uri.js"
   },
   "bin": {
-    "oplog": "./index.js"
+    "mongotail": "./index.js"
   },
   "keywords": [
     "mongo",
