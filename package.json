@@ -6,7 +6,7 @@
     "test": "standard && node test/uri.js"
   },
   "bin": {
-    "mongotail": "./bin/index.js"
+    "mongotail": "./bin/mongotail.js"
   },
   "keywords": [
     "mongo",
