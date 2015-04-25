@@ -1,0 +1,45 @@
+{
+  "name": "mongotail",
+  "version": "1.0.0",
+  "description": "Tail any capped MongoDB collection - like oplog",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test/uri.js"
+  },
+  "bin": {
+    "oplog": "./index.js"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "capped",
+    "cursor",
+    "tail",
+    "oplog",
+    "cli",
+    "watch",
+    "debug"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/watson/mongotail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/watson/mongotail/issues"
+  },
+  "homepage": "https://github.com/watson/mongotail",
+  "dependencies": {
+    "inquirer": "^0.8.2",
+    "minimist": "^1.1.1",
+    "mongojs": "^0.18.2",
+    "muri": "^1.1.0"
+  },
+  "devDependencies": {
+    "deep-extend": "^0.3.3",
+    "standard": "^3.7.1",
+    "tape": "^4.0.0"
+  },
+  "preferGlobal": true
+}
