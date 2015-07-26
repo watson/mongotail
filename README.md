@@ -3,8 +3,7 @@
 CLI to tail any capped MongoDB collection - like oplog
 
 [![Build status](https://travis-ci.org/watson/mongotail.svg?branch=master)](https://travis-ci.org/watson/mongotail)
-
-[![js-standard-style](https://raw.githubusercontent.com/feross/standard/master/badge.png)](https://github.com/feross/standard)
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ## Installation
 
