@@ -48,13 +48,13 @@ string](http://docs.mongodb.org/manual/reference/connection-string/),
 e.g:
 
 ```
-mongotail myserver/users
+mongotail myserver/mycollection
 ```
 
 You can of cause mix with options:
 
 ```
-mongotail myserver/users -u admin -p
+mongotail myserver/mycollection -u admin -p
 ```
 
 ### Example: Tailing oplog
