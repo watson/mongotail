@@ -1,6 +1,6 @@
 {
   "name": "mongotail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tail any capped MongoDB collection - like oplog",
   "scripts": {
     "test": "standard && node test/uri.js"
@@ -40,5 +40,9 @@
     "standard": "^4.5.4",
     "tape": "^4.0.1"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "coordinates": [
+    55.64711579999999,
+    12.5509595
+  ]
 }
