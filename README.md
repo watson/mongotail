@@ -57,6 +57,12 @@ You can of cause mix with options:
 mongotail myserver/mycollection -u admin -p
 ```
 
+### Gotcha
+
+If the collection you are tailing is empty, mongotail will not be able
+to tail it and will exit right away. This is unfortunately a limitation
+of MongoDB.
+
 ### Example: Tailing oplog
 
 Given a replica set hosted on `example.net` with a master on port 10000
